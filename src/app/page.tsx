@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
@@ -9,6 +11,7 @@ export default function Home() {
             <a href="#" className="hover:text-zinc-300 transition-colors">Home</a>
             <a href="#" className="hover:text-zinc-300 transition-colors">Sobre</a>
             <a href="#" className="hover:text-zinc-300 transition-colors">Contato</a>
+            <Link href="/checkout" className="hover:text-zinc-300 transition-colors">Planos</Link>
           </nav>
         </div>
       </header>
@@ -23,6 +26,12 @@ export default function Home() {
             Plataforma de automação de workflows. Conecte seus aplicativos e
             automatize tarefas de forma simples e eficiente.
           </p>
+          <Link
+            href="/checkout"
+            className="mt-8 inline-block rounded-lg bg-indigo-600 px-6 py-3 text-sm font-semibold text-white hover:bg-indigo-500 transition-colors"
+          >
+            Ver planos e assinar
+          </Link>
         </div>
       </main>
 
