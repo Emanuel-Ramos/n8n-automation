@@ -27,7 +27,7 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-zinc-900 text-zinc-400 px-6 py-6">
+      <footer className="bg-green-700 text-zinc-200 px-6 py-6">
         <div className="mx-auto max-w-6xl flex flex-col items-center justify-between gap-2 sm:flex-row">
           <p className="text-sm">&copy; 2026 n8n Automation. Todos os direitos reservados.</p>
           <nav className="flex gap-4 text-sm">
