@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
       {/* Header */}
-      <header className="bg-zinc-900 text-white px-6 py-4 shadow-md">
+      <header className="bg-blue-600 text-white px-6 py-4 shadow-md">
         <div className="mx-auto flex max-w-6xl items-center justify-between">
           <h1 className="text-xl font-bold">n8n Automation</h1>
           <nav className="flex gap-6 text-sm">
