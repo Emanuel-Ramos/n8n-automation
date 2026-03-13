@@ -1,17 +1,9 @@
+import Header from "@/components/Header";
+
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
-      {/* Header */}
-      <header className="bg-zinc-900 text-white px-6 py-4 shadow-md">
-        <div className="mx-auto flex max-w-6xl items-center justify-between">
-          <h1 className="text-xl font-bold">n8n Automation</h1>
-          <nav className="flex gap-6 text-sm">
-            <a href="#" className="hover:text-zinc-300 transition-colors">Home</a>
-            <a href="#" className="hover:text-zinc-300 transition-colors">Sobre</a>
-            <a href="#" className="hover:text-zinc-300 transition-colors">Contato</a>
-          </nav>
-        </div>
-      </header>
+      <Header />
 
       {/* Corpo */}
       <main className="flex-1 bg-zinc-50 dark:bg-zinc-950">
